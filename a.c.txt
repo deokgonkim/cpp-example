@@ -1,0 +1,8 @@
+a.c:6:21: error: redefinition of enumerator 'CORN'
+enum Grain { WHEAT, CORN, RYE, BARLEY, SORGHUM };
+                    ^
+a.c:5:15: note: previous definition is here
+enum Starch { CORN, RICE, POTATO, BEAN };
+              ^
+1 error generated.
+

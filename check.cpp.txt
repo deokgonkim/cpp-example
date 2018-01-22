@@ -1,0 +1,5 @@
+check.cpp:9:16: warning: comparison of constant 10 with expression of type
+      'bool' is always true [-Wtautological-constant-out-of-range-compare]
+    if ( 0 < i < 10 )
+         ~~~~~ ^ ~~
+1 warning generated.

@@ -1,0 +1,22 @@
+                                    ABSENTEE DATA
+              Monday      Thusday    Wednesday     Thursday       Friday
+            Value  %     Value  %     Value  %     Value  %     Value  %
+Dept A      0   -100     1      0     1      0     1      0     2    100
+Dept B      6    200     0   -100     1    -50     0   -100     3     50
+Dept C      3     67     1    -44     0   -100     1    -44     4    122
+Dept D      3     50     3     50     2      0     0   -100     2      0
+Dept E      4    233     0   -100     1    -17     0   -100     1    -17
+Dept F      1    -17     3    150     1    -17     1    -17     0   -100
+
+                BAR CHART: ABSENCES BY DAY
+     Monday    Tuesday  Wednesday   Thursday     Friday
+100%                                                       
+ 90%                                                       
+ 80%                                                       
+ 70%                                                       
+ 60%                                                       
+ 50%                                                       
+ 40%   *                                                   
+ 30%   *                                           *       
+ 20%   *          *                                *       
+ 10%   *          *          *          *          *       
