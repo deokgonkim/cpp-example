@@ -1,6 +1,9 @@
 #include <string.h>
 #include <iostream>
+#include <stdio.h>
 #include "Date.h"
+
+int copy(Date);
 
 Date::Date(int initMo, int initDay, int initYr, const char* initMsg) {
     mo = initMo;
@@ -34,6 +37,14 @@ int main(int argc, char* argv[]) {
     Date d2(2, 3, 2004, "2004");
     std::cout << "d2 created" << std::endl;
 
+    printf("d 's Address : %x\n", &d);
     d2 = d;
+    printf("d2 's Address : %x\n", &d);
     std::cout << "d2 copyed to d" << std::endl;
+    copy(d);
+    std::cout << "After copy" << std::endl;
+}
+
+int copy(Date newD) {
+    printf("address of newD : %x\n", &newD);
 }
